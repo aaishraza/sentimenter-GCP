@@ -1,0 +1,16 @@
+# requirements.txt
+
+# Remove: streamlit
+# Remove: plotly, plotly-express
+
+# Keep these
+selenium
+beautifulsoup4
+webdriver-manager
+pandas
+nltk
+
+# Add these for the API
+Flask
+Flask-CORS
+gunicorn  # A production-grade server for Flask
